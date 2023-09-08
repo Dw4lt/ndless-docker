@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:22.04
 
 LABEL \
     maintainer="stepney141" \
@@ -25,7 +25,6 @@ RUN apt-get update -y \
     libgmp-dev \
     libmpfr-dev \
     libmpc-dev \
-    zlib1g zlib1g-dev zlib1g-dbg \
     libboost-dev libboost-program-options-dev \
     wget \
     python3 python3-dev texinfo php \
